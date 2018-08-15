@@ -1,0 +1,19 @@
+{
+    "name": "tatyana/sum",
+    "description": "sum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tatyana Goncharova",
+            "email": "TVGoncharova@yandex.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.4",
+        "tatyanagoncharova/sum": "1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TatyanaGoncharova\\":"src"
+}}
+}
